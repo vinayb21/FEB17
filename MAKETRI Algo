@@ -1,0 +1,23 @@
+MAKETRI
+Algorithmic Complexity: O(n)
+
+1. Input values of n,l,r
+2. For n inputs
+	store values of n elements in a data structure like array or vector
+3. Find the two largest elements in the array/vector
+4. Find the two smallest elements in the array/vector
+5. Assign max = sum of the two largest elements - 1 (To make range inclusive)
+6. Assign min = absolute difference of the smallest two elements + 1
+7. Set count to 0
+8. if r<min or l>max:
+	count=0
+   else if l<=min and r>=min and r<=max:
+	count = r-min+1
+   else if l<=min and r>=max:
+	count = max-min+1
+   else if l>min and r<=max:
+	count = r-l+1
+   else if l>min and r>=max:
+	count = max-l+1;
+9. Print count
+	
