@@ -7,7 +7,7 @@ Algorithmic Complexity: O(n)
 3. Find the two largest elements in the array/vector
 4. Find the two smallest elements in the array/vector
 5. Assign max = sum of the two largest elements - 1 (To make range inclusive)
-6. Assign min = absolute difference of the smallest two elements + 1
+6. Assign min = absolute difference of the smallest two elements + 1 (To make range inclusive)
 7. Set count to 0
 8. if r<min or l>max:
 	count=0
